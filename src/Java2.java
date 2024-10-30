@@ -12,13 +12,37 @@ public class Java2 {
 
 // Print variables
 //        System.out.println("Student name: " + studentName);
+
 //        System.out.println("Student id: " + studentID);
+
 //        System.out.println("Student age: " + studentAge);
 //        System.out.println("Student fee: " + studentFee);
 //        System.out.println("Student grade: " + studentGrade);
 
 
-String name = "cabdifitaax ";
-        System.out.println(name.toUpperCase());
-    }
-}
+//       int x =10;
+//       int y = 20;
+//        System.out.println(x < y)
+//      int age1 = 17;
+//      int age2 = 20;
+//        System.out.println(age1 > 18 );
+//        System.out.println(age2 > 18 );
+//        int  x = 10 ;
+//        int y = 18 ;
+//        if (x < y){
+//            System.out.println("x > y");
+
+            int time = 5;
+            if (time < 18) {
+                System.out.println("Good day.");
+            } else {
+                System.out.println("Good evening.");
+
+            }
+
+        }
+   }
+
+
+
+
