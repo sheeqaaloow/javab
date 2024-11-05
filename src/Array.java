@@ -55,6 +55,35 @@ public class Array {
                 System.out.println("Number is odd " + i);
             }
 
-    }   } }
+    } 
+         String name = "John";
+//        String names = name.charAt(0).;
+//
+//        //String names = name.toUpperCase();
+//        System.out.println(names);
+//        String myStr = "Split a string by spaces, and also punctuation.";
+//         String regex = "[,\\.\\s]";
+////        String[] myArray = myStr.split(regex);
+////        for (String s : myArray) {
+////            System.out.println(s);
+//        System.out.println(myStr.replaceAll(regex, "."));
+////        }
+
+//        String myStr = "       Hello World!        ";
+//        String myStr1 = "    Hello World!      ";
+//        System.out.println(myStr.trim());
+//        System.out.println(myStr1);i
+
+
+//        int [] mynum = { 5, 2, 8, 4, 9 };
+//                Arrays.sort (mynum);
+//        System.out.println(Arrays.toString( mynum));
+        int[] numbers = {5, 9, 8, 4, 2};
+        Arrays.sort (numbers);
+        int lastNumber = numbers[numbers.length - 1];
+
+        System.out.println(lastNumber);
+    
+    } }
 
 
